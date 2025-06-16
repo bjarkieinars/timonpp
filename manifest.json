@@ -9,5 +9,12 @@
         ],
         "js": ["script.js"]
       }
-    ]
+    ],
+    "description": "Formats the Timonpp page to be more readable.",
+    "permissions": [
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
   }
